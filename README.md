@@ -125,8 +125,6 @@ The new heading appeared in the browser, and the existing incidents were kept be
 
 ## Screenshots
 
-Add your screenshots to a `docs/screenshots/` folder and reference them here:
-
 ```markdown
 ![EC2 instance running](images/01_EC2_Running.jpg)
 ![project transfer to ec2](images/02_project_transfer_to_ec2.jpg)
