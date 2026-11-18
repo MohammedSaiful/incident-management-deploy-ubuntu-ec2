@@ -128,12 +128,15 @@ The new heading appeared in the browser, and the existing incidents were kept be
 Add your screenshots to a `docs/screenshots/` folder and reference them here:
 
 ```markdown
-![EC2 instance running](docs/screenshots/ec2-running.png)
-![Installed versions](docs/screenshots/versions.png)
-![Backend service and health check](docs/screenshots/backend-health.png)
-![Incident Command Center](docs/screenshots/app-home.png)
-![New incident and status change](docs/screenshots/new-incident.png)
-![Updated heading after redeployment](docs/screenshots/updated-heading.png)
+![EC2 instance running](images/01_EC2_Running.jpg)
+![project transfer to ec2](images/02_project_transfer_to_ec2.jpg)
+![project tree](images/03_project_tree.jpg)
+![Installed node versions](images/04_node_version.jpg)
+![Installed psql versions](images/05_psql_version.jpg)
+![Installed ngnix versions](images/06_ngnix_version.jpg)
+![open using ec2 ip](images/07_open_using_ec2_ip.jpg)
+![created new incident](images/08_created_new_incident.jpg)
+
 ```
 
 Make sure no passwords, `.env` contents, SSH keys or sensitive account details are visible in any screenshot.
