@@ -125,14 +125,14 @@ The new heading appeared in the browser, and the existing incidents were kept be
 
 ## Screenshots
 
-![EC2 instance running](images/01_EC2_Running.jpg)
-![project transfer to ec2](images/02_project_transfer_to_ec2.jpg)
-![project tree](images/03_project_tree.jpg)
-![Installed node versions](images/04_node_version.jpg)
-![Installed psql versions](images/05_psql_version.jpg)
-![Installed ngnix versions](images/06_ngnix_version.jpg)
-![open using ec2 ip](images/07_open_using_ec2_ip.jpg)
-![created new incident](images/08_created_new_incident.jpg)
+![EC2 instance running](Images/01_EC2_Running.jpg)
+![project transfer to ec2](Images/02_project_transfer_to_ec2.jpg)
+![project tree](Images/03_project_tree.jpg)
+![Installed node versions](Images/04_node_version.jpg)
+![Installed psql versions](Images/05_psql_version.jpg)
+![Installed ngnix versions](Images/06_ngnix_version.jpg)
+![open using ec2 ip](Images/07_open_using_ec2_ip.jpg)
+![created new incident](Images/08_created_new_incident.jpg)
 
 
 Make sure no passwords, `.env` contents, SSH keys or sensitive account details are visible in any screenshot.
