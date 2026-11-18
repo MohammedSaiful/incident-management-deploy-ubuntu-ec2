@@ -125,7 +125,6 @@ The new heading appeared in the browser, and the existing incidents were kept be
 
 ## Screenshots
 
-```markdown
 ![EC2 instance running](images/01_EC2_Running.jpg)
 ![project transfer to ec2](images/02_project_transfer_to_ec2.jpg)
 ![project tree](images/03_project_tree.jpg)
@@ -135,7 +134,6 @@ The new heading appeared in the browser, and the existing incidents were kept be
 ![open using ec2 ip](images/07_open_using_ec2_ip.jpg)
 ![created new incident](images/08_created_new_incident.jpg)
 
-```
 
 Make sure no passwords, `.env` contents, SSH keys or sensitive account details are visible in any screenshot.
 
@@ -164,9 +162,6 @@ React code is compiled into static files, so changes only appear after a rebuild
 **5. Which actions could GitHub Actions perform automatically after `git push`?**
 Check out the code, install dependencies, run tests, build the frontend, connect to the EC2 instance securely, copy the files, run `deploy-ubuntu.sh`, restart services and verify the health check.
 
-## Next Step: Automation
-
-The same `deploy-ubuntu.sh` script can be run by a GitHub Actions workflow (see `docs/GITHUB_ACTIONS.md`), so every `git push` redeploys the app automatically. The workflow deploys to this existing Ubuntu instance and does not create the EC2 server.
 
 ## Cleanup
 
